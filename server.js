@@ -32,7 +32,7 @@ db.serialize(() => {
   `);
 
   db.run(`DELETE FROM secrets`);
-  db.run(`INSERT INTO secrets VALUES ('CTF{second_order_sqli_master}')`);
+  db.run(`INSERT INTO secrets VALUES ('IET{pr3d1ct1ng_f41lur3_cr34t3$_1t}')`);
 });
 
 // Login route
